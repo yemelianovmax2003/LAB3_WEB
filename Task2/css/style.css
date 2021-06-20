@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@font-face {
+    font-family: 'Magneto';
+    src: url(../Fonts/Magneto.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+body {
+    color: #000;
+}
+
+.container {
+    width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.test-blocks {
+    padding: 90px;
+}
+
+.test-blocks__items {
+    display: flex;
+}
+.test-block__1-title {
+    font-family: Magneto;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    
+}
+
+.test-block__1 {
+    width: 396px;
+    height: 333px;
+    background: rgba(255, 107, 0, 0.13);
+    border-top: 4px solid #8DE97E;
+    border-right: 12px solid rgba(221, 133, 0, 0.19);
+    border-bottom: 30px solid #000000;
+    border-left: 8px solid #DD0000;
+}
+
+
+.test-block__2 {
+    margin: 10px 0 0 80px;
+    height: 326px;
+    width: 385px;
+    border-top: 4px solid #46BCFF;
+    border-right: 12px solid rgba(82, 89, 84, 0.19);
+    border-bottom: 10px solid #FD3030;
+    border-left: 12px solid #C71D83;
+    /*bg*/
+    background-image:   url(../img/test-block__2-grass-top.png),
+                        url(../img/test-block__2-grass-bush.png);
+    background-repeat: no-repeat;
+    background-position:  0% 0%,46% 122%;
+    
+}
+
+.test-block__2-title {
+    font-family: Peralta;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 35px 0 0 5px;
+}
